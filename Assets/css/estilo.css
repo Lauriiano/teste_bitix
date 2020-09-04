@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+ }
+
+body {
+	font-family: "Times New Roman", arial, courier, Sans-Serif;
+	margin: 0 10px;
+}
+
+.topo {
+	background: #eeeeee;
+	padding: 20px 0;
+}
+
+.topo h2 {
+	text-align:  center;
+	color: #757575;
+	font-size: 1.8em;
+}
+
+.qtdBeneficiario {
+	margin: 15px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed gray;
+}
+
+.qtdBeneficiario h3 {
+	margin-bottom: 8px;
+	color: #757575;
+	font-size: 1.2em;
+	font-weight: 400;
+	letter-spacing: 1px; 
+}
+
+.qtdBeneficiario form {
+	border-radius: 5px;
+	border-color: #757575;
+	margin: 0 20px;
+}
+
+.qtdBeneficiario input[type=number] {
+	/*padding-left: 4px;*/
+	height: 20px;
+	margin: 0 8px;
+	width: 100px;
+	border-radius: 3px;
+	border-color:  #757575;
+}
+
+.qtdBeneficiario select {
+	margin-right: 8px;
+	height: 23.7px;
+	border-color: #757575;
+	border-radius: 3px;
+}
+
+input[type=submit] {
+    background: #aaa;
+    color: #fff;
+    font-weight: bold;
+    border:none;
+    float:right;
+    padding: 5px 10px;
+    cursor: pointer;
+	border-radius: 5px;
+}
+
+.getBeneficiarios {
+	margin: 30px;
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+}
+
+.setData {
+	margin-right:30px; 
+}
+
+.setData input[type=text], .setData input[type=number] { 
+	margin-bottom: 8px;
+	height: 20px;
+	width: 150px;
+	border-radius: 3px;
+	border-color:  #757575;
+	padding: 0 8px;
+
+}
+
+.setData input[type=number] {
+	width: 80px;
+}
+
+.setData input[type=submit] {
+	font-weight: 600;
+}
+
+.dadosRegistrados {
+	display: flex;
+	justify-content: center;
+}
+
+td {
+	height: 20px;
+}
+
+.header td {
+	font-size: 1.2em;
+	font-weight: bold;
+	height: 25px;
+}
+
+.dados td {
+	color: #757575;
+	font-size: 1.2em;
+	height: 35px;
+}
+
+.total td {
+	background-color: #757575;
+	height: 20px;
+	font-size: 1.4em;
+	color: blue;
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.footer p {
+	padding: 0 5px;
+}
+
+#titlePlano {
+	font-size: 1.2em;
+}
+
+#escolhido{
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.footer a {
+	text-decoration: none;
+	background-color: #757575;
+	padding-top: 2px;
+	width: 110px;
+	height: 20px;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	border-radius: 3px;
+}
